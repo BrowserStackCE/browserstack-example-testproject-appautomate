@@ -21,7 +21,7 @@ public class AndroidTest implements ExceptionsReporter {
 
     @BeforeTest
     public void setup() throws Exception {
-        driver = new AndroidDriver<>("S6SHfMrFRlvUpxEb7V0Y2jA0K7ddwcXbhZEQ9UI7CkM1", getCapabilities(), "Android Test");
+        driver = new AndroidDriver<>("<TP_DEV_TOKEN>", getCapabilities(), "Android Test");
     }
 
     @Override
@@ -46,9 +46,7 @@ public class AndroidTest implements ExceptionsReporter {
         allow_btn.click();
 
         Thread.sleep(5000);
-
-        //     ((JavascriptExecutor) driver).executeScript("browserstack_executor: {\"action\": \"cameraImageInjection\", \"arguments\": {\"imageUrl\": \"media://3a0f19550a6f6cf4a1499c8e2d25052a59e8f1f4\"}}");
-        ((JavascriptExecutor) driver).executeScript("browserstack_executor: {\"action\": \"cameraImageInjection\", \"arguments\": {\"imageUrl\": \"media://e1e110ef69ea0b938b4df3a92a69741acda31af3\"}}");
+        ((JavascriptExecutor) driver).executeScript("browserstack_executor: {\"action\": \"cameraImageInjection\", \"arguments\": {\"imageUrl\": \"<MEDIA_URL>\"}}");
         Thread.sleep(10000);
     }
 
