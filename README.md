@@ -1,10 +1,6 @@
 # testproject-appium-app-browserstack
 This repository demonstrates how to run Appium tests along with Camera Injection for QR/Bar Code scanning using [TestProjectSDK](https://app.testproject.io/#/integrations/sdk) on BrowserStack App Automate.
 
-<div align="center">
-<img src = "https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" > <br>
-</div>
-
 Code samples to get started with Appium tests for your Native App using TestProject.
 
 ## Setup
