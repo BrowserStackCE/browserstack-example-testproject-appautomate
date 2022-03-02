@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- Config = local_environment.json / environment.json ; BrowserType = Firefox / Chrome / Edge / Safari ; Environment = on-prem / cloud-->
+<suite name="TestProject Demo Suite">
+    <test name="TestProject Demo Test">
+        <classes>
+            <class name="AndroidTest"/>
+        </classes>
+    </test>
+</suite>
