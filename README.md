@@ -3,7 +3,6 @@ This repository demonstrates how to run Appium tests along with Camera Injection
 
 <div align="center">
 <img src = "https://www.browserstack.com/images/layout/browserstack-logo-600x315.png" > <br>
-<img src = "https://webdriver.io/img/webdriverio.png"  height="140px">
 </div>
 
 Code samples to get started with Appium tests for your Native App using TestProject.
